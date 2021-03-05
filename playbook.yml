@@ -1,0 +1,7 @@
+- name: Standard Linux Configuration
+  hosts: linux
+  gather_facts: yes
+  become: yes
+  roles:
+    - chrisbalmer.yum-repos
+    - chrisbalmer.firewall

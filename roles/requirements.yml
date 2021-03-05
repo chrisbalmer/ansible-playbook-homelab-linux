@@ -1,0 +1,10 @@
+---
+roles:
+  - name: chrisbalmer.yum-repos
+    scm: git
+    src: git+https://github.com/chrisbalmer/ansible-role-yum-repos.git
+    version: v0.0.1
+  - name: chrisbalmer.firewall
+    scm: git
+    src: git+https://github.com/chrisbalmer/ansible-role-firewall.git
+    version: v0.0.1
